@@ -6,14 +6,10 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- *  Класс сервисных методов для работы с данными
- */
+
 public class PersonService {
 
-    /**
-     * Поиск по имени
-     */
+
     public static Person findPersonByName(List<Person> persons, String searchName) {
         Person result = null;
 

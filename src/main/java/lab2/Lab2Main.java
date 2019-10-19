@@ -14,11 +14,11 @@ public class Lab2Main {
 
             persons.forEach(System.out::println);
 
-            Person prs = PersonService.findPersonByName(persons, "Иван");
+            Person prs = PersonService.findPersonByName(persons, "Фаиль");
 
             if (prs != null) {
-                prs.setPhoneNumber("+71111111111");
-                prs.setEmail("ivan@mail.ru");
+                prs.setPhoneNumber("+773456783535");
+                prs.setEmail("");
             }
 
             serviceDB.savePersonList(persons);
