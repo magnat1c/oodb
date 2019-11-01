@@ -6,7 +6,6 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
-//Товар
 
 @XmlRootElement(name = "Product")
 public class Product{
@@ -32,10 +31,5 @@ public class Product{
         this.stocks = stocks;
     }
 
-    void addStock (Stock stock){
-        if (!stocks.contains(stock)) {
-            stocks.add(stock);
-        }
-    }
 
 }

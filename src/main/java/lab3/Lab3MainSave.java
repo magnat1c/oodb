@@ -6,9 +6,6 @@ import lab3.model.Stock;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Пример, демонстрирующий сохранение (marshalling) объекта в XML документ
- */
 public class Lab3MainSave {
 
     public static void main(String[] args) {
