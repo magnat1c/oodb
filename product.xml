@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Product>
+    <productName>Диван</productName>
+    <stocks>
+        <stock>
+            <address>Гвардейская 52</address>
+            <phoneNumber>+7984728347</phoneNumber>
+            <stockProducts/>
+        </stock>
+        <stock>
+            <address>Ленина 112</address>
+            <phoneNumber>+7927465745</phoneNumber>
+            <stockProducts/>
+        </stock>
+    </stocks>
+</Product>
