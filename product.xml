@@ -3,12 +3,12 @@
     <productName>Диван</productName>
     <stocks>
         <stock>
-            <address>Гвардейская 52</address>
+            <address>Красная 33</address>
             <phoneNumber>+7984728347</phoneNumber>
             <stockProducts/>
         </stock>
         <stock>
-            <address>Ленина 112</address>
+            <address>Джалиля 144</address>
             <phoneNumber>+7927465745</phoneNumber>
             <stockProducts/>
         </stock>

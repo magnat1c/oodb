@@ -14,8 +14,8 @@ public class Lab3MainSave {
         Product product = new Product();
 
         // Создаем объекты - склады где хранится продукт
-        Stock stock1 = new Stock("Гвардейская 52","+7984728347");
-        Stock stock2 = new Stock("Ленина 112","+7927465745");
+        Stock stock1 = new Stock("Красная 33","+7984728347");
+        Stock stock2 = new Stock("Джалиля 144","+7927465745");
 
         List<Stock> stocks = new ArrayList<>();
         stocks.add(stock1);
