@@ -14,6 +14,16 @@ public class Stock {
     Map<Product,Integer> products = new HashMap<Product, Integer>();//Учет количесто каждого товара на складе
 
 
+    public Stock() {
+    }
+
+    @Override
+    public String toString() {
+        return "Stock{" +
+                "Address='" + Address + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+    }
 
     public Stock(String address, String phoneNumber ) {
         this.phoneNumber = phoneNumber;
@@ -56,6 +66,8 @@ public class Stock {
         }
         return 0;
     }
+
+
 
     public void setProducts(Map<Product, Integer> products) {
         this.products = products;

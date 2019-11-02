@@ -31,5 +31,11 @@ public class Product{
         this.stocks = stocks;
     }
 
-
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", stocks=" + stocks +
+                '}';
+    }
 }
