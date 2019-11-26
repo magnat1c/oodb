@@ -1,6 +1,16 @@
 package lab1;
 
 public class Person {
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
+
     String firstName;
     String lastName;
     String phoneNumber;

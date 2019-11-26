@@ -4,7 +4,6 @@ import lab1.Person;
 
 import java.io.IOException;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Lab4Main {
